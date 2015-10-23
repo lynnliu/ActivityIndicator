@@ -6,9 +6,9 @@
 //  Copyright © 2015 Lynn. All rights reserved.
 //
 
-#import "FourDotsScaleAnimation.h"
+#import "ThreeDotsScaleAnimation.h"
 
-@implementation FourDotsScaleAnimation
+@implementation ThreeDotsScaleAnimation
 
 -(void)setupAnimationInLayer:(CALayer *)layer size:(CGFloat)size color:(UIColor *)tintColor{
     CGFloat marginBetweenDot = 5.0;
@@ -22,7 +22,7 @@
     CAReplicatorLayer *replicatorLayer = [[CAReplicatorLayer alloc] init];
     replicatorLayer.frame = CGRectMake(0, 0, size, size);
     replicatorLayer.instanceDelay = 0.2;
-    replicatorLayer.instanceCount = 4;
+    replicatorLayer.instanceCount = 3;
     replicatorLayer.instanceTransform = CATransform3DMakeTranslation(marginBetweenDot+dotSize, 0, 0);
     
     [replicatorLayer addSublayer:dot];

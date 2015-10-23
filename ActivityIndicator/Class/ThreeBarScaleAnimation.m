@@ -6,16 +6,17 @@
 //  Copyright © 2015 Lynn. All rights reserved.
 //
 
-#import "FourBarScaleAnimation.h"
+#import "ThreeBarScaleAnimation.h"
 
-@implementation FourBarScaleAnimation
+@implementation ThreeBarScaleAnimation
 
 -(void)setupAnimationInLayer:(CALayer *)layer size:(CGFloat)size color:(UIColor *)tintColor{
     CGFloat marginBetweenDot = 5.0;
     CGFloat dotSize = (size - 2 * marginBetweenDot) / 3;
     
+    
     CAShapeLayer *dot = [[CAShapeLayer alloc] init];
-    dot.frame = CGRectMake(0, 0, dotSize, dotSize);
+    dot.frame = CGRectMake((size - dotSize * 3)/2 + dotSize/4 , (size - dotSize * 3)/2, dotSize, dotSize);
     dot.path = [UIBezierPath bezierPathWithRect:CGRectMake(0, 0, dotSize / 2, dotSize * 3)].CGPath;
     dot.fillColor = tintColor.CGColor;
     
@@ -23,7 +24,7 @@
     replicatorLayer.frame = CGRectMake(0, 0, size, size);
     replicatorLayer.instanceDelay = 0.2;
     replicatorLayer.instanceCount = 3;
-    replicatorLayer.instanceTransform = CATransform3DMakeTranslation(dotSize/1.4, 0, 0);
+    replicatorLayer.instanceTransform = CATransform3DMakeTranslation(dotSize, 0, 0);
     [replicatorLayer addSublayer:dot];
     
     [layer addSublayer:replicatorLayer];
@@ -35,11 +36,6 @@
     groupAnimation.autoreverses = false;
     groupAnimation.repeatCount = HUGE;
     [dot addAnimation:groupAnimation forKey:@"groupAnimation"];
-    
-    CALayer *canvas = [[CALayer alloc] init];
-    canvas.backgroundColor = BCKCOLOR.CGColor;
-    canvas.frame = CGRectMake(0, size/2, size, size/2);
-    [layer addSublayer:canvas];
 }
 
 -(CABasicAnimation *)scaleAnimation{

@@ -16,11 +16,11 @@
 		7ED74BEB1BD9CBE000F911B8 /* ActivityIndicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED74BEA1BD9CBE000F911B8 /* ActivityIndicatorTests.m */; };
 		7ED74BF61BD9CBE000F911B8 /* ActivityIndicatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED74BF51BD9CBE000F911B8 /* ActivityIndicatorUITests.m */; };
 		7ED74C161BD9CEDC00F911B8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED74C151BD9CEDC00F911B8 /* QuartzCore.framework */; };
-		7ED74C1E1BD9D09700F911B8 /* FourDotsScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED74C1A1BD9D09700F911B8 /* FourDotsScaleAnimation.m */; };
+		7ED74C1E1BD9D09700F911B8 /* ThreeDotsScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED74C1A1BD9D09700F911B8 /* ThreeDotsScaleAnimation.m */; };
 		7ED74C1F1BD9D09700F911B8 /* PulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED74C1C1BD9D09700F911B8 /* PulseAnimation.m */; };
 		7ED74C251BD9D0EB00F911B8 /* DotTriangleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED74C241BD9D0EB00F911B8 /* DotTriangleAnimation.m */; };
 		7ED74C2B1BD9D8ED00F911B8 /* GridDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED74C2A1BD9D8ED00F911B8 /* GridDotsAnimation.m */; };
-		7ED74C3E1BDA1FEF00F911B8 /* FourBarScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED74C3D1BDA1FEF00F911B8 /* FourBarScaleAnimation.m */; };
+		7ED74C3E1BDA1FEF00F911B8 /* ThreeBarScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED74C3D1BDA1FEF00F911B8 /* ThreeBarScaleAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		7ED74BF71BD9CBE000F911B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ED74C151BD9CEDC00F911B8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7ED74C181BD9D09700F911B8 /* AnimationHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimationHeader.h; path = Class/AnimationHeader.h; sourceTree = "<group>"; };
-		7ED74C191BD9D09700F911B8 /* FourDotsScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FourDotsScaleAnimation.h; path = Class/FourDotsScaleAnimation.h; sourceTree = "<group>"; };
-		7ED74C1A1BD9D09700F911B8 /* FourDotsScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FourDotsScaleAnimation.m; path = Class/FourDotsScaleAnimation.m; sourceTree = "<group>"; };
+		7ED74C191BD9D09700F911B8 /* ThreeDotsScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThreeDotsScaleAnimation.h; path = Class/ThreeDotsScaleAnimation.h; sourceTree = "<group>"; };
+		7ED74C1A1BD9D09700F911B8 /* ThreeDotsScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThreeDotsScaleAnimation.m; path = Class/ThreeDotsScaleAnimation.m; sourceTree = "<group>"; };
 		7ED74C1B1BD9D09700F911B8 /* PulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PulseAnimation.h; path = Class/PulseAnimation.h; sourceTree = "<group>"; };
 		7ED74C1C1BD9D09700F911B8 /* PulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PulseAnimation.m; path = Class/PulseAnimation.m; sourceTree = "<group>"; };
 		7ED74C1D1BD9D09700F911B8 /* ULynnAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ULynnAnimations.h; path = Class/ULynnAnimations.h; sourceTree = "<group>"; };
@@ -68,8 +68,8 @@
 		7ED74C241BD9D0EB00F911B8 /* DotTriangleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DotTriangleAnimation.m; path = Class/DotTriangleAnimation.m; sourceTree = "<group>"; };
 		7ED74C291BD9D8ED00F911B8 /* GridDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GridDotsAnimation.h; path = Class/GridDotsAnimation.h; sourceTree = "<group>"; };
 		7ED74C2A1BD9D8ED00F911B8 /* GridDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GridDotsAnimation.m; path = Class/GridDotsAnimation.m; sourceTree = "<group>"; };
-		7ED74C3C1BDA1FEF00F911B8 /* FourBarScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FourBarScaleAnimation.h; path = Class/FourBarScaleAnimation.h; sourceTree = "<group>"; };
-		7ED74C3D1BDA1FEF00F911B8 /* FourBarScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FourBarScaleAnimation.m; path = Class/FourBarScaleAnimation.m; sourceTree = "<group>"; };
+		7ED74C3C1BDA1FEF00F911B8 /* ThreeBarScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThreeBarScaleAnimation.h; path = Class/ThreeBarScaleAnimation.h; sourceTree = "<group>"; };
+		7ED74C3D1BDA1FEF00F911B8 /* ThreeBarScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThreeBarScaleAnimation.m; path = Class/ThreeBarScaleAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,10 +166,10 @@
 			isa = PBXGroup;
 			children = (
 				7ED74C181BD9D09700F911B8 /* AnimationHeader.h */,
-				7ED74C3C1BDA1FEF00F911B8 /* FourBarScaleAnimation.h */,
-				7ED74C3D1BDA1FEF00F911B8 /* FourBarScaleAnimation.m */,
-				7ED74C191BD9D09700F911B8 /* FourDotsScaleAnimation.h */,
-				7ED74C1A1BD9D09700F911B8 /* FourDotsScaleAnimation.m */,
+				7ED74C3C1BDA1FEF00F911B8 /* ThreeBarScaleAnimation.h */,
+				7ED74C3D1BDA1FEF00F911B8 /* ThreeBarScaleAnimation.m */,
+				7ED74C191BD9D09700F911B8 /* ThreeDotsScaleAnimation.h */,
+				7ED74C1A1BD9D09700F911B8 /* ThreeDotsScaleAnimation.m */,
 				7ED74C1B1BD9D09700F911B8 /* PulseAnimation.h */,
 				7ED74C1C1BD9D09700F911B8 /* PulseAnimation.m */,
 				7ED74C231BD9D0EB00F911B8 /* DotTriangleAnimation.h */,
@@ -312,10 +312,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ED74BD81BD9CBE000F911B8 /* ViewController.m in Sources */,
-				7ED74C3E1BDA1FEF00F911B8 /* FourBarScaleAnimation.m in Sources */,
+				7ED74C3E1BDA1FEF00F911B8 /* ThreeBarScaleAnimation.m in Sources */,
 				7ED74BD51BD9CBE000F911B8 /* AppDelegate.m in Sources */,
 				7ED74C1F1BD9D09700F911B8 /* PulseAnimation.m in Sources */,
-				7ED74C1E1BD9D09700F911B8 /* FourDotsScaleAnimation.m in Sources */,
+				7ED74C1E1BD9D09700F911B8 /* ThreeDotsScaleAnimation.m in Sources */,
 				7ED74BD21BD9CBE000F911B8 /* main.m in Sources */,
 				7ED74C2B1BD9D8ED00F911B8 /* GridDotsAnimation.m in Sources */,
 				7ED74C251BD9D0EB00F911B8 /* DotTriangleAnimation.m in Sources */,

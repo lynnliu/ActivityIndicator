@@ -8,7 +8,7 @@
 
 #import "AnimationHeader.h"
 #import "PulseAnimation.h"
-#import "FourDotsScaleAnimation.h"
+#import "ThreeDotsScaleAnimation.h"
 #import "DotTriangleAnimation.h"
 #import "GridDotsAnimation.h"
-#import "FourBarScaleAnimation.h"
+#import "ThreeBarScaleAnimation.h"

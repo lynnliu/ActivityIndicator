@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "ULynnAnimations.h"
 
-#define itemSize 80.0
+#define itemSize 100.0
 
 @interface ViewController ()
 
@@ -25,10 +25,10 @@
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     
-    FourDotsScaleAnimation *fourDot = [[FourDotsScaleAnimation alloc] init];
-    UIView *fourDotView = [[UIView alloc] initWithFrame:CGRectMake(50.0, itemSize, itemSize, itemSize)];
-    [fourDot setupAnimationInLayer:fourDotView.layer size:itemSize color:DOTCOLOR];
-    [self.view addSubview:fourDotView];
+    ThreeDotsScaleAnimation *dots = [[ThreeDotsScaleAnimation alloc] init];
+    UIView *dotsView = [[UIView alloc] initWithFrame:CGRectMake(50.0, itemSize, itemSize, itemSize)];
+    [dots setupAnimationInLayer:dotsView.layer size:itemSize color:DOTCOLOR];
+    [self.view addSubview:dotsView];
     
     PulseAnimation *pulsAnim = [[PulseAnimation alloc] init];
     UIView *pulseView = [[UIView alloc] initWithFrame:CGRectMake(220.0, itemSize, itemSize, itemSize)];
@@ -45,8 +45,8 @@
     [gridDots setupAnimationInLayer:gridDotsView.layer size:itemSize color:DOTCOLOR];
     [self.view addSubview:gridDotsView];
     
-    FourBarScaleAnimation *barScale = [[FourBarScaleAnimation alloc] init];
-    UIView *barScaleView = [[UIView alloc] initWithFrame:CGRectMake(50.0, itemSize * 3 + 50, itemSize, itemSize)];
+    ThreeBarScaleAnimation *barScale = [[ThreeBarScaleAnimation alloc] init];
+    UIView *barScaleView = [[UIView alloc] initWithFrame:CGRectMake(50.0, itemSize * 3 + 100, itemSize, itemSize)];
     [barScale setupAnimationInLayer:barScaleView.layer size:itemSize color:DOTCOLOR];
     [self.view addSubview:barScaleView];
 }

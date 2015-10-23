@@ -18,16 +18,13 @@
     
     CAShapeLayer *dot = [[CAShapeLayer alloc] init];
     dot.frame = CGRectMake(0,0,dotSize,dotSize);
-    
     dot.path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, dotSize, dotSize)].CGPath;
     dot.fillColor = tintColor.CGColor;
     
     CAReplicatorLayer *replicatorLayerX = [[CAReplicatorLayer alloc] init];
     replicatorLayerX.frame = CGRectMake(0,0,size,size);
-    
     replicatorLayerX.instanceDelay = 0.3;
     replicatorLayerX.instanceCount = nbColumn;
-    
     CATransform3D transform = CATransform3DIdentity;
     transform = CATransform3DTranslate(transform, dotSize+marginBetweenDot, 0, 0.0);
     replicatorLayerX.instanceTransform = transform;
@@ -36,7 +33,6 @@
     replicatorLayerY.frame = CGRectMake(0, 0, size, size);
     replicatorLayerY.instanceDelay = 0.3;
     replicatorLayerY.instanceCount = nbColumn;
-    
     CATransform3D transformY = CATransform3DIdentity;
     transformY = CATransform3DTranslate(transformY, 0, dotSize+marginBetweenDot, 0.0);
     replicatorLayerY.instanceTransform = transformY;

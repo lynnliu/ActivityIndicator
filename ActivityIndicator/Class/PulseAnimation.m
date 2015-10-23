@@ -12,7 +12,7 @@
 
 -(void)setupAnimationInLayer:(CALayer *)layer size:(CGFloat)size color:(UIColor *)tintColor{
     CAShapeLayer *pulse = [[CAShapeLayer alloc] init];
-    pulse.frame = CGRectMake(0, 0, 80, 80);
+    pulse.frame = CGRectMake(0, 0, size, size);
     pulse.path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, size, size)].CGPath;
     pulse.fillColor = tintColor.CGColor;
     

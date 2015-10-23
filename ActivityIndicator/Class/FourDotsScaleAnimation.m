@@ -31,7 +31,7 @@
 }
 
 -(CABasicAnimation *)scaleAnimation{
-    CABasicAnimation *scaleAnim = [[CABasicAnimation alloc] init]; //(keyPath: "transform")
+    CABasicAnimation *scaleAnim = [[CABasicAnimation alloc] init];
     scaleAnim.keyPath = @"transform";
     
     CATransform3D t = CATransform3DIdentity;

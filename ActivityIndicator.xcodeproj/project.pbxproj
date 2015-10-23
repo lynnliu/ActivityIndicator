@@ -20,6 +20,7 @@
 		7ED74C1F1BD9D09700F911B8 /* PulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED74C1C1BD9D09700F911B8 /* PulseAnimation.m */; };
 		7ED74C251BD9D0EB00F911B8 /* DotTriangleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED74C241BD9D0EB00F911B8 /* DotTriangleAnimation.m */; };
 		7ED74C2B1BD9D8ED00F911B8 /* GridDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED74C2A1BD9D8ED00F911B8 /* GridDotsAnimation.m */; };
+		7ED74C3E1BDA1FEF00F911B8 /* FourBarScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED74C3D1BDA1FEF00F911B8 /* FourBarScaleAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		7ED74C241BD9D0EB00F911B8 /* DotTriangleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DotTriangleAnimation.m; path = Class/DotTriangleAnimation.m; sourceTree = "<group>"; };
 		7ED74C291BD9D8ED00F911B8 /* GridDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GridDotsAnimation.h; path = Class/GridDotsAnimation.h; sourceTree = "<group>"; };
 		7ED74C2A1BD9D8ED00F911B8 /* GridDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GridDotsAnimation.m; path = Class/GridDotsAnimation.m; sourceTree = "<group>"; };
+		7ED74C3C1BDA1FEF00F911B8 /* FourBarScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FourBarScaleAnimation.h; path = Class/FourBarScaleAnimation.h; sourceTree = "<group>"; };
+		7ED74C3D1BDA1FEF00F911B8 /* FourBarScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FourBarScaleAnimation.m; path = Class/FourBarScaleAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				7ED74C181BD9D09700F911B8 /* AnimationHeader.h */,
+				7ED74C3C1BDA1FEF00F911B8 /* FourBarScaleAnimation.h */,
+				7ED74C3D1BDA1FEF00F911B8 /* FourBarScaleAnimation.m */,
 				7ED74C191BD9D09700F911B8 /* FourDotsScaleAnimation.h */,
 				7ED74C1A1BD9D09700F911B8 /* FourDotsScaleAnimation.m */,
 				7ED74C1B1BD9D09700F911B8 /* PulseAnimation.h */,
@@ -307,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ED74BD81BD9CBE000F911B8 /* ViewController.m in Sources */,
+				7ED74C3E1BDA1FEF00F911B8 /* FourBarScaleAnimation.m in Sources */,
 				7ED74BD51BD9CBE000F911B8 /* AppDelegate.m in Sources */,
 				7ED74C1F1BD9D09700F911B8 /* PulseAnimation.m in Sources */,
 				7ED74C1E1BD9D09700F911B8 /* FourDotsScaleAnimation.m in Sources */,
@@ -538,6 +544,7 @@
 				7ED74BFC1BD9CBE000F911B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ED74BFD1BD9CBE000F911B8 /* Build configuration list for PBXNativeTarget "ActivityIndicatorTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +553,7 @@
 				7ED74BFF1BD9CBE000F911B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ED74C001BD9CBE000F911B8 /* Build configuration list for PBXNativeTarget "ActivityIndicatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +562,7 @@
 				7ED74C021BD9CBE000F911B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

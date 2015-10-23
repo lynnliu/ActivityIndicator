@@ -19,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = BCKCOLOR;
 }
 
 -(void)viewWillAppear:(BOOL)animated{
@@ -43,6 +44,11 @@
     UIView *gridDotsView = [[UIView alloc] initWithFrame:CGRectMake(220.0, itemSize * 2 + 50, itemSize, itemSize)];
     [gridDots setupAnimationInLayer:gridDotsView.layer size:itemSize color:DOTCOLOR];
     [self.view addSubview:gridDotsView];
+    
+    FourBarScaleAnimation *barScale = [[FourBarScaleAnimation alloc] init];
+    UIView *barScaleView = [[UIView alloc] initWithFrame:CGRectMake(50.0, itemSize * 3 + 50, itemSize, itemSize)];
+    [barScale setupAnimationInLayer:barScaleView.layer size:itemSize color:DOTCOLOR];
+    [self.view addSubview:barScaleView];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -15,4 +15,5 @@
 #import <QuartzCore/QuartzCore.h>
 #import <UIKit/UIKit.h>
 
-#define DOTCOLOR [UIColor lightGrayColor]
+#define BCKCOLOR [UIColor lightGrayColor]
+#define DOTCOLOR [UIColor whiteColor]

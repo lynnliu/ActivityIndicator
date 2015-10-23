@@ -11,3 +11,4 @@
 #import "FourDotsScaleAnimation.h"
 #import "DotTriangleAnimation.h"
 #import "GridDotsAnimation.h"
+#import "FourBarScaleAnimation.h"
